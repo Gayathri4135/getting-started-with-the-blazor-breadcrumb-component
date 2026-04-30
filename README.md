@@ -1,43 +1,48 @@
+
 # Getting Started with the Blazor Breadcrumb Component
 
-The [Blazor Breadcrumb](https://www.syncfusion.com/blazor-components/blazor-breadcrumb?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples) is a graphical user interface that serves as a navigation header for your web application or site. A quick-start project that helps you to get start with the Syncfusion Breadcrumb component in a Blazor WebAssembly application. This project also contains the code to configure a few of its basic features, like adding items, icons, navigation, and custom templates.
+**Repository Description**  
+This repository contains a quick‑start Blazor WebAssembly sample that demonstrates how to use the Syncfusion Blazor Breadcrumb component to provide intuitive, hierarchical navigation in web applications.
+
+The [Blazor Breadcrumb](https://www.syncfusion.com/blazor-components/blazor-breadcrumb?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples) is a graphical user interface component that serves as a navigation header for your web application or site. This project contains example code to configure common features such as adding items, icons, navigation, menu modes, hidden modes, and custom templates.
+
+## Project Overview
+This project helps developers get started with the Syncfusion Blazor Breadcrumb component in a Blazor WebAssembly application. It demonstrates how breadcrumb items can be dynamically generated, customized, and rendered to improve navigation clarity and user experience.
 
 ## Prerequisites
+- Visual Studio 2022  
 
-* Visual Studio 2022
-
-## How to run the project
-
-* Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+## Installation and Running the Project
+1. Clone this project to a local directory.
+2. Open the solution file using Visual Studio 2022.
+3. Restore NuGet packages by rebuilding the solution.
+4. Build and run the project to view the Breadcrumb output.
 
 ## Features and Benefits
 
-## Breadcrumb item icons
+### Breadcrumb item icons
 
-Users tend to understand visual information better than text. Include [icons](https://blazor.syncfusion.com/documentation/breadcrumb/icons?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples) or sprite images to the right or left of the Breadcrumb items to provide a visual representation of their corresponding actions.
+
+## Breadcrumb Item Icons
+Provide visual context by adding icons to breadcrumb items. Icons can be displayed to the left or right of items to represent actions clearly.https://blazor.syncfusion.com/documentation/breadcrumb/icons
 
 ### Templates
+Blazor Breadcrumb supports templated content, allowing custom UI segments to be rendered within breadcrumb items.
+https://blazor.syncfusion.com/documentation/breadcrumb/templates
 
-Blazor has [templated](https://blazor.syncfusion.com/documentation/breadcrumb/templates?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples) components which accepts one or more UI segments as input that can be rendered as part of the component during component rendering.
 
-### Menu mode
-
-Menu mode shows the number of Breadcrumb items that can be accommodated within the container space and creates a submenu with the remaining items.
+### Menu Mode
+Menu mode automatically collapses excess items into a submenu when the breadcrumb exceeds available space.
 
 ### Navigation
+Breadcrumb items support relative and absolute URL navigation.  
+https://blazor.syncfusion.com/documentation/breadcrumb/navigation
 
-Breadcrumb items support [navigation](https://blazor.syncfusion.com/documentation/breadcrumb/navigation?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples) for relative or absolute URL.
+### Bind to Location
+Breadcrumb items can be generated automatically based on the application’s navigation path and customized using templates and events.
 
-## Bind to location
-
-Breadcrumb items can be automatically generated based on the current location of the user within the website or by providing a URL to the Breadcrumb component. The auto generated items can be customized using templates and item render events.
-
-### Hidden mode
-
-Hidden mode shows the maximum number of items possible in the container space and hides the remaining items. Clicking on a previous item will make the hidden item visible.
+### Hidden Mode
+Hidden mode displays only the maximum number of items that can fit in the container and reveals hidden items on interaction.
 
 ## Related links
 [Learn More about Blazor Breadcrumb](https://www.syncfusion.com/blazor-components/blazor-breadcrumb?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples)
@@ -60,6 +65,14 @@ Hidden mode shows the maximum number of items possible in the container space an
 
 [Knowledge base](https://www.syncfusion.com/kb/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples)
 
+# Troubleshooting
+- Ensure the correct .NET SDK and Visual Studio version are installed.
+- Restore NuGet packages if build errors occur.
+- Rebuild the solution if UI changes are not reflected.
+- Use browser developer tools to inspect runtime errors.
+
+## Support
+For detailed API references, configuration guidance, and troubleshooting help, refer to the Syncfusion documentation and community resources listed above.
 
 ## About Syncfusion Blazor Components
 The Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples) library offers over 70 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to Breadcrumb, we provide popular Blazor Components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-sampless), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples), [Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples), [Diagram](https://www.syncfusion.com/blazor-components/blazor-diagram?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples), and [Word Processor](https://www.syncfusion.com/blazor-components/blazor-word-processor?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples).
